@@ -1,5 +1,5 @@
 <?php
-require_once '../bootstrap.php';
+require_once 'bootstrap.php';
 ?><!DOCTYPE html>
 <html>
 <head>
