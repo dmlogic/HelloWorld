@@ -14,6 +14,12 @@ require '../bootstrap.php';
 <p>
     Your composer Faker install worked, and your random name is <strong><?=$vars->fakename?></strong>
 </p>
+<p>
+    Your app version is <?=get_env('CACHEBUSTER')?>
+</p>
+<p>
+    Your encryption key is <?=get_env('APP_ENCRYPTION_KEY')?>
+</p>
 </body>
 </html>
 <?php
