@@ -1,5 +1,5 @@
 <?php
-var_dump("v3");
+var_dump("v4");
 require '../bootstrap.php';
 ?><!DOCTYPE html>
 <html>
